@@ -1,0 +1,14 @@
+.container
+{
+  height : 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 500px;
+}
+

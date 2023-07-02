@@ -1,0 +1,24 @@
+.top-row
+{
+  padding: 1em 0;
+}
+.page-header
+{
+  background-color: #F0F0F0;
+  padding: 3px 0px 0px 0px;
+}
+.top-row
+{
+  float: left;
+}
+.mat-mdc-form-field
+{
+  width: 100%;
+  padding: 5px 0px 2px 0px;
+}
+
+
+.mat-form-field .input
+{
+  height: 10px;
+}

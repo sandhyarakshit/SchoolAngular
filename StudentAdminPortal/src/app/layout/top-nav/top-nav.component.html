@@ -1,0 +1,24 @@
+ <mat-toolbar color="red">
+  <div class="container">
+   <!-- <a routerLink="/" mat-fab color="accent">
+      <mat-icon>Home</mat-icon> -->
+
+
+   <!-- <a routerLink="/students" class="nav" mat-raised-button>Students</a> -->
+    <div class="row " color="primary">
+        <div class="col-6">
+          <h2>AIR</h2>
+        </div>
+
+        <div class="col-4">
+          <div class="modal" tabindex="-1">
+                <button mat-raised-button  data-toggle="modal" data-target="#loginModal" routerLink="/login" >LOG IN</button>
+          </div>
+          <a mat-button routerLink="/register">Sign Up</a>
+        </div>
+    </div>
+
+  </div>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
